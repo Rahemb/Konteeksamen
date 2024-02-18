@@ -1,11 +1,15 @@
-/* styles.css */
-
+/* Generelle stiler for alle sider */
 body {
-  background-color: palegoldenrod;
+  font-family: 'Arial', sans-serif;
+  background-color: #f1c22c;
+  color: black;
+  text-align: center;
+  padding: 50px;
 }
 
 h1 {
-  text-align: center;
+  font-size: 35px;
+  color: black;
 }
 
 ul {
@@ -47,35 +51,49 @@ div {
 }
 
 p {
+  width: auto;
+  font-size: 20px;
+}
+
+/* Stiler for individuelle sider */
+
+.index-image {
+  width: 1000px;
+  height: 450px;
+  object-fit: contain;
+}
+
+/* Additional styles for accessibility.html */
+.accessibility-image {
   width: 800px;
+  height: 450px;
+  object-fit: contain;
 }
 
 /* Additional styles for topical.html */
-main {
-  font-size: 23px;
-}
-
-/* Additional styles for canteen.html */
-main h2 {
-  font-size: 30px;
-}
-
-main p {
-  font-size: 23px;
-}
-
-/* Additional styles for library.html */
-main h2,
-main h3 {
-  font-size: 30px;
-}
-
-main img {
+.topic-image {
   width: 600px;
   height: 350px;
   object-fit: contain;
 }
 
-footer {
-  font-size: 23px;
+/* Additional styles for canteen.html */
+.canteen-image {
+  width: 600px;
+  height: 350px;
+  object-fit: contain;
+}
+
+/* Additional styles for library.html */
+.library-image {
+  width: 600px;
+  height: 350px;
+  object-fit: contain;
+}
+
+/* Additional styles for 404.html */
+.not-found-image {
+  width: 100%;
+  max-width: 400px;
+  margin-top: 30px;
 }
